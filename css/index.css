@@ -118,6 +118,10 @@ body {
 }
 
 /* ========== HERO STYLES ========== */
+.page-section {
+    margin-bottom: 120px;
+}
+
 .page-first {
         font-weight: 700;
         font-size: 56px;
@@ -146,6 +150,8 @@ body {
         padding-right: 32px;
         padding-bottom: 16px;
         padding-left: 32px;
+        border-radius: 4px;
+        border: none;
 }
 .page-but:hover,
 .page-but:focus {
@@ -157,12 +163,22 @@ body {
 }
 
 /* ========== BENEFITS STYLES ========== */
+.section-benefits {
+    margin-bottom: 120px;
+}
+
+.menu-benefits {
+    display: flex;
+    column-gap: 24px;
+}
+
 .page-third {
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        padding-bottom: 8px;
 }
 
 .para-benefits {
@@ -174,6 +190,16 @@ body {
 }
 
 /*  ========== OUR-TEAM STYLES ========== */
+.page-team {
+    margin-bottom: 120px;
+}
+
+.menu-team {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 120px;
+}
+
 .team-second {
         font-weight: 700;
         font-size: 36px;
@@ -182,6 +208,9 @@ body {
         text-align: center;
         color: #2e2f42;
         text-transform: capitalize;
+        align-items: center;
+        padding-top: 120px;
+        padding-bottom: 72px;
 }
 
 .menu-team-item {
