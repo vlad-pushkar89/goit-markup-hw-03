@@ -47,13 +47,13 @@ body {
 /* ========== HEADER STYLES ========== */
 .block-header {
     border-bottom: 1px solid #e7e9fc;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 .page-header-container {
     display: flex;
     justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .block-nav {
@@ -72,7 +72,7 @@ body {
 
 .address-menu {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
     padding-top: 24px;
     padding-bottom: 24px;
 }
@@ -107,6 +107,8 @@ body {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        padding-top: 24px;
+        padding-bottom: 24px;
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -178,6 +180,18 @@ body {
 }
 
 /* ========== BENEFITS STYLES ========== */
+.visually-hidden:not(:focus):not(:active) {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: auto;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
+}
+
 .section-benefits {
     padding-bottom: 120px;
     padding-top: 120px;
@@ -199,7 +213,7 @@ body {
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
-        padding-bottom: 8px;
+        margin-bottom: 8px;
 }
 
 .para-benefits {
@@ -213,20 +227,24 @@ body {
 /*  ========== OUR-TEAM STYLES ========== */
 .page-team {
     margin-bottom: 120px;
-    width: 1440px;
-    height: 732px;
+    /* width: 1440px;
+    height: 732px; */
     margin-right: auto;
     margin-left: auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .card-cont {
-    padding: 32px 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .menu-team {
     display: flex;
     justify-content: space-around;
     padding-bottom: 120px;
+    gap: 24px;
 }
 
 .team-second {
@@ -239,10 +257,11 @@ body {
         text-transform: capitalize;
         align-items: center;
         padding-top: 120px;
-        padding-bottom: 72px;
+        margin-bottom: 72px;
 }
 
 .menu-team-item {
+    border-radius: 0px 0px 4px 4px;
     background-color: #FFFFFF;
 }
 
@@ -253,7 +272,7 @@ body {
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
-        padding-bottom: 8px;
+        margin-bottom: 8px;
 }
 
 .menu-team-para {
