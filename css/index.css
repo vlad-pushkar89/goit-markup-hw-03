@@ -120,6 +120,10 @@ body {
 /* ========== HERO STYLES ========== */
 .page-section {
     margin-bottom: 120px;
+    width: 1440px;
+    height: 600px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .page-first {
@@ -152,6 +156,8 @@ body {
         padding-left: 32px;
         border-radius: 4px;
         border: none;
+        min-width: 169px;
+        height: 56px;
 }
 .page-but:hover,
 .page-but:focus {
@@ -192,6 +198,14 @@ body {
 /*  ========== OUR-TEAM STYLES ========== */
 .page-team {
     margin-bottom: 120px;
+    width: 1440px;
+    height: 732px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.card-cont {
+    padding: 32px 16px;
 }
 
 .menu-team {
@@ -224,6 +238,7 @@ body {
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        padding-bottom: 8px;
 }
 
 .menu-team-para {
@@ -240,6 +255,34 @@ body {
 }
 
 /* ========== OUR PORTFOLIO STYLES========== */
+.portf-section {
+    width: 1128px;
+    height: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 120px;
+}
+
+.menu-portf-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row-one {
+    display: flex;
+    width: 1128px;
+    height: 420px;
+    padding-bottom: 48px;
+    gap: 24px;
+}
+
+.row-tuo {
+    display: flex;
+    width: 1128px;
+    height: 420px;
+    gap: 24px;
+}
+
 .portf-second {
     font-weight: 700;
         font-size: 36px;
@@ -248,6 +291,7 @@ body {
         text-align: center;
         color: #2e2f42;
         text-transform: capitalize;
+        padding-bottom: 72px;
 }
 
 .menu-portf-third {
@@ -256,6 +300,9 @@ body {
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        padding-top: 32px;
+        padding-bottom: 8px;
+        padding-left: 16px;
 }
 
 .menu-portf-par {
@@ -264,6 +311,8 @@ body {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+        padding-bottom: 32px;
+        padding-left: 16px;
 }
 
 /* ========== FOOTER STYLES ========== */
@@ -284,6 +333,7 @@ body {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        padding-bottom: 16px;
 }
 
 .para-footer {
@@ -292,8 +342,11 @@ body {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
+        padding-top: 16px;
 }
 
 .page-footer {
     background: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
