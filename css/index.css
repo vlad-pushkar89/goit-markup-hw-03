@@ -38,8 +38,9 @@ body {
 
 .container {
     max-width: 1158px;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding: 0 15px;
+    /* padding-left: 16px;
+    padding-right: 16px; */
     margin-left: auto;
     margin-right: auto;
 }
@@ -296,17 +297,17 @@ body {
     border-top: none;
 }
 
-.menu-portf-item {
+/* .menu-portf-item {
     width: calc((100% - 48px) / 3);
-}
+} */
 
 .portf-section {
     /* width: 1128px;
     height: 1000px; */
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 120px;
     padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .menu-portf-container {
@@ -318,21 +319,6 @@ body {
     border: 1px solid #e7e9fc;
     border-top: none; */
 }
-
-/* .row-one {
-    display: flex;
-    width: 1128px;
-    height: 420px;
-    padding-bottom: 48px;
-    gap: 24px;
-}
-
-.row-tuo {
-    display: flex;
-    width: 1128px;
-    height: 420px;
-    gap: 24px;
-} */
 
 .portf-second {
     font-weight: 700;
