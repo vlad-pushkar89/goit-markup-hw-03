@@ -180,18 +180,6 @@ body {
 }
 
 /* ========== BENEFITS STYLES ========== */
-.visually-hidden:not(:focus):not(:active) {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: auto;
-    margin: 0;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-    white-space: nowrap;
-}
-
 .section-benefits {
     padding-bottom: 120px;
     padding-top: 120px;
@@ -289,20 +277,33 @@ body {
 }
 
 /* ========== OUR PORTFOLIO STYLES========== */
+
+
+.menu-portf-item {
+    width: calc((100% - 48px) / 3);
+}
+
 .portf-section {
     width: 1128px;
     height: 1000px;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .menu-portf-container {
     display: flex;
     flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
-.row-one {
+/* .row-one {
     display: flex;
     width: 1128px;
     height: 420px;
@@ -315,7 +316,7 @@ body {
     width: 1128px;
     height: 420px;
     gap: 24px;
-}
+} */
 
 .portf-second {
     font-weight: 700;
@@ -325,7 +326,7 @@ body {
         text-align: center;
         color: #2e2f42;
         text-transform: capitalize;
-        padding-bottom: 72px;
+        margin-bottom: 72px;
 }
 
 .menu-portf-third {
@@ -335,8 +336,8 @@ body {
         letter-spacing: 0.02em;
         color: #2e2f42;
         padding-top: 32px;
-        padding-bottom: 8px;
         padding-left: 16px;
+        margin-bottom: 8px;
 }
 
 .menu-portf-par {
