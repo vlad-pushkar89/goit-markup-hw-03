@@ -277,20 +277,22 @@ body {
 }
 
 /* ========== OUR PORTFOLIO STYLES========== */
-
+.menu-portf-item-container {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
 
 .menu-portf-item {
     width: calc((100% - 48px) / 3);
 }
 
 .portf-section {
-    width: 1128px;
-    height: 1000px;
+    /* width: 1128px;
+    height: 1000px; */
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 120px;
-    padding-top: 120px;
-    padding-bottom: 120px;
 }
 
 .menu-portf-container {
